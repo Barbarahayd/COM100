@@ -20,4 +20,5 @@ def merge(array, start, end):
     array[start: end + 1] = sorted(array[start: end + 1])
 
 sort(array)
+
 print(array)
